@@ -1,0 +1,394 @@
+<html>
+<head>
+<title>TestNG:  Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>63/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 03 10:54:33 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>356 seconds (356568 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGdemo.Assign5.createProject()'><b>createProject</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>4</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign2.deleteUser()'><b>deleteUser</b><br>Test class: testNGdemo.Assign2</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign2@1ba9117e</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.loginandlogoutuser3()'><b>loginandlogoutuser3</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>8</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign3.createCustomer()'><b>createCustomer</b><br>Test class: testNGdemo.Assign3</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign3@732c2a62</td></tr>
+<tr>
+<td title='testNGdemo.Assign5.createCustomer()'><b>createCustomer</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>5</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign4.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign4</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign4@272ed83b</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.createTask()'><b>createTask</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.deleteUser()'><b>deleteUser</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>7</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.loginModifieduser2()'><b>loginModifieduser2</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.logout()'><b>logout</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.createCustomer()'><b>createCustomer</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.closeBrowser()'><b>closeBrowser</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign5.deleteCustomer()'><b>deleteCustomer</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>4</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.deleteUser()'><b>deleteUser</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>20</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.modifyUser2()'><b>modifyUser2</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.runPrerequisite()'><b>runPrerequisite</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>12</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign5.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.createUser2()'><b>createUser2</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>17</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.modifyProject()'><b>modifyProject</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign4.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign4</td>
+<td></td>
+<td>11</td>
+<td>testNGdemo.Assign4@272ed83b</td></tr>
+<tr>
+<td title='testNGdemo.Assign2.modifyUser()'><b>modifyUser</b><br>Test class: testNGdemo.Assign2</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign2@1ba9117e</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.deleteuser1()'><b>deleteuser1</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>3</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign4.modifyCustomer()'><b>modifyCustomer</b><br>Test class: testNGdemo.Assign4</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign4@272ed83b</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.navigate()'><b>navigate</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>2</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.createProject()'><b>createProject</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.deleteuser3()'><b>deleteuser3</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>3</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign5.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>13</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.createUser1()'><b>createUser1</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>7</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign4.deleteCustomer()'><b>deleteCustomer</b><br>Test class: testNGdemo.Assign4</td>
+<td></td>
+<td>8</td>
+<td>testNGdemo.Assign4@272ed83b</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>10</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.modifyUser1()'><b>modifyUser1</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign2.createUser()'><b>createUser</b><br>Test class: testNGdemo.Assign2</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign2@1ba9117e</td></tr>
+<tr>
+<td title='testNGdemo.Assign5.deleteProject()'><b>deleteProject</b><br>Test class: testNGdemo.Assign5</td>
+<td></td>
+<td>8</td>
+<td>testNGdemo.Assign5@41fecb8b</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.loginandlogoutuser2()'><b>loginandlogoutuser2</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.deleteTask()'><b>deleteTask</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.createUser3()'><b>createUser3</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>10</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.loginModifieduser1()'><b>loginModifieduser1</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.modifyUser3()'><b>modifyUser3</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign4.createCustomer()'><b>createCustomer</b><br>Test class: testNGdemo.Assign4</td>
+<td></td>
+<td>10</td>
+<td>testNGdemo.Assign4@272ed83b</td></tr>
+<tr>
+<td title='testNGdemo.Assign3.deleteCustomer()'><b>deleteCustomer</b><br>Test class: testNGdemo.Assign3</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign3@732c2a62</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>10</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.loginandlogoutuser1()'><b>loginandlogoutuser1</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>9</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.deleteProject()'><b>deleteProject</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.loginuser1()'><b>loginuser1</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.login()'><b>login</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>4</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign2.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign2</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign2@1ba9117e</td></tr>
+<tr>
+<td title='testNGdemo.Assign2.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign2</td>
+<td></td>
+<td>11</td>
+<td>testNGdemo.Assign2@1ba9117e</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.deleteCustomer()'><b>deleteCustomer</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>4</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.launchBrowser()'><b>launchBrowser</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign8.create3Users()'><b>create3Users</b><br>Test class: testNGdemo.Assign8</td>
+<td></td>
+<td>13</td>
+<td>testNGdemo.Assign8@51dcb805</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.createUser()'><b>createUser</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>8</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>3</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.loginuser2()'><b>loginuser2</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>6</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.createCustomer()'><b>createCustomer</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>5</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign3.runPreconditions()'><b>runPreconditions</b><br>Test class: testNGdemo.Assign3</td>
+<td></td>
+<td>11</td>
+<td>testNGdemo.Assign3@732c2a62</td></tr>
+<tr>
+<td title='testNGdemo.Assign1.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: testNGdemo.Assign1</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign1@34f7cfd9</td></tr>
+<tr>
+<td title='testNGdemo.Assign6.createProject()'><b>createProject</b><br>Test class: testNGdemo.Assign6</td>
+<td></td>
+<td>4</td>
+<td>testNGdemo.Assign6@120f102b</td></tr>
+<tr>
+<td title='testNGdemo.Assign7.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign7</td>
+<td></td>
+<td>1</td>
+<td>testNGdemo.Assign7@625732</td></tr>
+<tr>
+<td title='testNGdemo.Assign3.postrequistes()'><b>postrequistes</b><br>Test class: testNGdemo.Assign3</td>
+<td></td>
+<td>0</td>
+<td>testNGdemo.Assign3@732c2a62</td></tr>
+<tr>
+<td title='testNGdemo.Assign9.deleteuser2()'><b>deleteuser2</b><br>Test class: testNGdemo.Assign9</td>
+<td></td>
+<td>3</td>
+<td>testNGdemo.Assign9@66498326</td></tr>
+</table><p>
+</body>
+</html>

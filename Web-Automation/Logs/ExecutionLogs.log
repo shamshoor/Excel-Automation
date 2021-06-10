@@ -1,0 +1,232 @@
+2021-06-03 17:10:42 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 17:10:45 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 17:10:46 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 17:10:48 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 17:10:52 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 17:10:54 INFO  assignment2 o/p:33 - creating the user
+2021-06-03 17:10:59 INFO  assignment2 o/p:38 - assigning FN,LN,email,username,pwd,pwdCopy to user
+2021-06-03 17:11:04 INFO  assignment2 o/p:60 - updating the details  FN,LN,email,username,pwd,pwdCopy to user
+2021-06-03 17:11:08 INFO  assignment2 o/p:83 - deleting the user
+2021-06-03 17:11:13 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 17:11:13 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 17:15:47 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 17:15:49 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 17:15:50 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 17:15:52 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 17:15:57 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 17:15:59 INFO  assignment3 o/p:32 - creating customer
+2021-06-03 17:16:04 INFO  assignment3 o/p:39 - assigning name to the customer
+2021-06-03 17:16:06 INFO  assignment3 o/p:68 - deleting customer
+2021-06-03 17:16:12 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 17:16:13 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:19:36 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:19:38 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:19:40 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:19:41 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:19:46 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:19:48 INFO  assignment9 o/p:36 - crreation of user1
+2021-06-03 18:19:51 INFO  assignment9 o/p:40 - assigning eleemnts of user1 with FN,LN,email,uname,pwd,pwdcopy
+2021-06-03 18:19:53 INFO  assignment9 o/p:54 - signing out of user1
+2021-06-03 18:19:53 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:19:55 INFO  assignment9 o/p:67 - signing in as user1 with given uname and pwd
+2021-06-03 18:20:12 INFO  assignment9 o/p:85 - crreation of user2
+2021-06-03 18:20:15 INFO  assignment9 o/p:89 - assigning eleemnts in user2 with  given FN,LN,email,uname,pwd,pwdcopy
+2021-06-03 18:20:17 INFO  assignment9 o/p:98 - signing out as user2
+2021-06-03 18:20:17 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:20:19 INFO  assignment9 o/p:111 - signing in as user2 with uname and pwd
+2021-06-03 18:20:25 INFO  assignment9 o/p:130 - crreation of user3
+2021-06-03 18:20:27 INFO  assignment9 o/p:135 - assigning eleemnts in user3 with  given FN,LN,email,uname,pwd,pwdcopy
+2021-06-03 18:20:29 INFO  assignment9 o/p:144 - signing out as user3
+2021-06-03 18:20:29 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:20:31 INFO  assignment9 o/p:146 - logging in as admin
+2021-06-03 18:20:31 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:20:37 INFO  assignment9 o/p:159 - modifying user1
+2021-06-03 18:20:40 INFO  assignment9 o/p:162 - updating FN,LN,email,uname,pwd,pwdcopy
+2021-06-03 18:20:47 INFO  assignment9 o/p:171 - signing out as user1
+2021-06-03 18:20:47 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:20:49 INFO  assignment9 o/p:184 - signing as updated user1
+2021-06-03 18:20:53 INFO  assignment9 o/p:200 - modifying user2
+2021-06-03 18:20:56 INFO  assignment9 o/p:203 - updating FN,LN,username,pwd to user2
+2021-06-03 18:21:03 INFO  assignment9 o/p:212 - logging out as user2
+2021-06-03 18:21:03 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:21:05 INFO  assignment9 o/p:225 -  signing in as modifying user2 credetils
+2021-06-03 18:21:09 INFO  assignment9 o/p:241 - modifying user3
+2021-06-03 18:21:12 INFO  assignment9 o/p:244 - updating FN,LN,username,pwd to user3
+2021-06-03 18:21:20 INFO  assignment9 o/p:253 - logging out as user2
+2021-06-03 18:21:20 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:21:22 INFO  assignment9 o/p:265 - deleting user3
+2021-06-03 18:21:22 INFO  assignment9 o/p:225 -  signing in as modifying user2 credetils
+2021-06-03 18:21:33 INFO  assignment9 o/p:272 - logging out as user2
+2021-06-03 18:21:33 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:21:35 INFO  assignment9 o/p:184 - signing as updated user1
+2021-06-03 18:21:40 INFO  assignment9 o/p:286 - logging in as modified user1
+2021-06-03 18:21:42 INFO  assignment9 o/p:289 - deleting user2
+2021-06-03 18:21:47 INFO  assignment9 o/p:293 - logging out as user1
+2021-06-03 18:21:47 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:21:48 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:21:54 INFO  assignment9 o/p:307 - logging in as admin
+2021-06-03 18:21:57 INFO  assignment9 o/p:311 - deleting user1
+2021-06-03 18:22:01 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:22:02 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:22:27 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:22:29 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:22:30 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:22:32 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:22:37 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:22:39 INFO  assignment4 o/p:30 - creation of customer
+2021-06-03 18:22:45 INFO  assignment4 o/p:37 - Assigning name to the customer
+2021-06-03 18:22:49 INFO  assignment4 o/p:53 - modification of customer
+2021-06-03 18:22:51 INFO  assignment4 o/p:56 - giving new name to the customer
+2021-06-03 18:22:56 INFO  assignment4 o/p:73 - deleting thecustomer
+2021-06-03 18:23:04 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:23:04 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:23:15 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:23:17 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:23:18 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:23:20 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:23:24 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:23:26 INFO  assignment5 o/p:30 - creation of customer
+2021-06-03 18:23:30 INFO  assignment5 o/p:37 - Assigning name to the customer
+2021-06-03 18:23:32 INFO  assignment5 o/p:52 - creating the project
+2021-06-03 18:23:34 INFO  assignment5 o/p:57 - assigning a name to the project
+2021-06-03 18:23:36 INFO  assignment5 o/p:73 - deleting the project
+2021-06-03 18:23:44 INFO  assignment5 o/p:93 - deleting the customer
+2021-06-03 18:23:48 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:23:49 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:23:55 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:23:57 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:23:58 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:24:00 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:24:04 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:24:06 INFO  assignment6 o/p:30 - creation of customer
+2021-06-03 18:24:11 INFO  assignment6 o/p:37 - assigning name to the customer
+2021-06-03 18:24:12 INFO  assignment6 o/p:52 - creation of the projetc
+2021-06-03 18:24:14 INFO  assignment6 o/p:57 - assigning name to the project
+2021-06-03 18:24:16 INFO  assignment6 o/p:72 - modification of project
+2021-06-03 18:24:18 INFO  assignment6 o/p:75 - updating a new name to existing project
+2021-06-03 18:24:22 INFO  assignment6 o/p:91 - deleting the project
+2021-06-03 18:24:29 INFO  assignment6 o/p:111 - deleting the  customer
+2021-06-03 18:24:33 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:24:33 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:24:46 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:24:48 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:24:49 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:24:51 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:24:55 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:24:57 INFO  assignment7 o/p:30 - creation of customer
+2021-06-03 18:25:02 INFO  assignment7 o/p:37 - assigning name to the customer
+2021-06-03 18:25:03 INFO  assignment7 o/p:52 - creation of project
+2021-06-03 18:25:05 INFO  assignment7 o/p:57 - assigning name to the project
+2021-06-03 18:25:07 INFO  assignment7 o/p:72 - creation of task
+2021-06-03 18:25:11 INFO  assignment7 o/p:77 - assigning task1
+2021-06-03 18:25:15 INFO  assignment7 o/p:79 - assigning task2
+2021-06-03 18:25:18 INFO  assignment7 o/p:81 - assigning task3
+2021-06-03 18:25:25 INFO  assignment7 o/p:98 - deleting the three tasks
+2021-06-03 18:25:25 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:25:26 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:26:01 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:26:04 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:26:05 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:26:07 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:26:11 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:26:13 INFO  assignment3 o/p:32 - creating customer
+2021-06-03 18:26:18 INFO  assignment3 o/p:39 - assigning name to the customer
+2021-06-03 18:26:20 INFO  assignment3 o/p:68 - deleting customer
+2021-06-03 18:26:27 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:26:27 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:27:53 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:27:55 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:27:56 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:27:58 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:28:02 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:28:04 INFO  assignment1 o/p:34 - creating the user
+2021-06-03 18:28:04 INFO  assignment1 o/p:63 - deleting the user succesfully!!
+2021-06-03 18:28:04 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:28:05 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:29:37 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:29:39 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:29:40 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:29:42 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:29:46 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:29:48 INFO  assignment8 o/p:34 - execution starts here for creation of three users!!!
+2021-06-03 18:29:51 INFO  assignment8 o/p:39 - assigning FN,LN,email,userName,passWord,pwdCopy
+2021-06-03 18:29:55 INFO  assignment8 o/p:39 - assigning FN,LN,email,userName,passWord,pwdCopy
+2021-06-03 18:29:59 INFO  assignment8 o/p:39 - assigning FN,LN,email,userName,passWord,pwdCopy
+2021-06-03 18:30:01 INFO  assignment8 o/p:55 - execution ends here for creation of three users!!!
+2021-06-03 18:30:01 INFO  assignment8 o/p:68 - signing in as user1
+2021-06-03 18:30:01 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:30:02 INFO  assignment8 o/p:70 - logging in with valid credentials by uname and pwd
+2021-06-03 18:30:09 INFO  assignment8 o/p:78 - signing out as user1
+2021-06-03 18:30:10 INFO  assignment8 o/p:91 - signing in as user2 with uname and pwd
+2021-06-03 18:30:16 INFO  assignment8 o/p:99 - signing out as user2
+2021-06-03 18:30:16 INFO  assignment8 o/p:111 - signing in as user3 with uname and pwd
+2021-06-03 18:30:22 INFO  assignment8 o/p:119 - signing out as user3
+2021-06-03 18:30:24 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:30:29 INFO  assignment8 o/p:132 - execution starts here for deleting 3 users
+2021-06-03 18:30:48 INFO  assignment8 o/p:142 - execution ends here for deleting of three users!!!
+2021-06-03 18:30:48 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:30:48 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:36:43 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:36:45 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:36:46 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:36:48 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:36:53 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:36:55 INFO  assignment1 o/p:34 - creating the user
+2021-06-03 18:36:55 INFO  assignment1 o/p:63 - deleting the user succesfully!!
+2021-06-03 18:36:55 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:36:55 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-03 18:48:07 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-03 18:48:09 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-03 18:48:10 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-03 18:48:12 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-03 18:48:16 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-03 18:48:18 INFO  assignment1 o/p:34 - creating the user
+2021-06-03 18:48:23 INFO  assignment1 o/p:39 - assigning firstname to user
+2021-06-03 18:48:23 INFO  assignment1 o/p:41 - assigning lastname to user
+2021-06-03 18:48:23 INFO  assignment1 o/p:43 - assigning email to user
+2021-06-03 18:48:23 INFO  assignment1 o/p:45 - assigning username
+2021-06-03 18:48:23 INFO  assignment1 o/p:47 - assigning pwd to username
+2021-06-03 18:48:27 INFO  assignment1 o/p:63 - deleting the user succesfully!!
+2021-06-03 18:48:34 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-03 18:48:34 INFO  Similar Methods executed!!!:30 - closing the browserapp
+2021-06-05 21:09:24 INFO  Similar Methods executed!!!:48 - defining the path
+2021-06-05 21:09:26 INFO  Similar Methods executed!!!:52 - maximizing the window
+2021-06-05 21:09:27 INFO  Similar Methods executed!!!:55 - navigate to the url
+2021-06-05 21:09:29 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-05 21:09:33 INFO  Similar Methods executed!!!:82 - minizing flyoutWindow
+2021-06-05 21:09:35 INFO  assignment9 o/p:36 - crreation of user1
+2021-06-05 21:09:38 INFO  assignment9 o/p:40 - assigning eleemnts of user1 with FN,LN,email,uname,pwd,pwdcopy
+2021-06-05 21:09:40 INFO  assignment9 o/p:54 - signing out of user1
+2021-06-05 21:09:40 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:09:42 INFO  assignment9 o/p:67 - signing in as user1 with given uname and pwd
+2021-06-05 21:09:49 INFO  assignment9 o/p:85 - crreation of user2
+2021-06-05 21:09:52 INFO  assignment9 o/p:89 - assigning eleemnts in user2 with  given FN,LN,email,uname,pwd,pwdcopy
+2021-06-05 21:09:54 INFO  assignment9 o/p:98 - signing out as user2
+2021-06-05 21:09:54 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:09:56 INFO  assignment9 o/p:111 - signing in as user2 with uname and pwd
+2021-06-05 21:10:01 INFO  assignment9 o/p:130 - crreation of user3
+2021-06-05 21:10:04 INFO  assignment9 o/p:135 - assigning eleemnts in user3 with  given FN,LN,email,uname,pwd,pwdcopy
+2021-06-05 21:10:06 INFO  assignment9 o/p:144 - signing out as user3
+2021-06-05 21:10:06 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:10:08 INFO  assignment9 o/p:146 - logging in as admin
+2021-06-05 21:10:08 INFO  Similar Methods executed!!!:68 - validating login credentials
+2021-06-05 21:10:13 INFO  assignment9 o/p:159 - modifying user1
+2021-06-05 21:10:16 INFO  assignment9 o/p:162 - updating FN,LN,email,uname,pwd,pwdcopy
+2021-06-05 21:10:24 INFO  assignment9 o/p:171 - signing out as user1
+2021-06-05 21:10:24 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:10:26 INFO  assignment9 o/p:184 - signing as updated user1
+2021-06-05 21:10:29 INFO  assignment9 o/p:200 - modifying user2
+2021-06-05 21:10:32 INFO  assignment9 o/p:203 - updating FN,LN,username,pwd to user2
+2021-06-05 21:10:40 INFO  assignment9 o/p:212 - logging out as user2
+2021-06-05 21:10:40 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:10:42 INFO  assignment9 o/p:225 -  signing in as modifying user2 credetils
+2021-06-05 21:10:45 INFO  assignment9 o/p:241 - modifying user3
+2021-06-05 21:10:48 INFO  assignment9 o/p:244 - updating FN,LN,username,pwd to user3
+2021-06-05 21:10:56 INFO  assignment9 o/p:253 - logging out as user2
+2021-06-05 21:10:56 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:10:58 INFO  assignment9 o/p:265 - deleting user3
+2021-06-05 21:10:58 INFO  assignment9 o/p:225 -  signing in as modifying user2 credetils
+2021-06-05 21:11:09 INFO  assignment9 o/p:272 - logging out as user2
+2021-06-05 21:11:09 INFO  Similar Methods executed!!!:19 - logging out the browserapplication
+2021-06-05 21:11:11 INFO  assignment9 o/p:184 - signing as updated user1
+2021-06-05 21:11:28 INFO  assignment9 o/p:286 - logging in as modified user1

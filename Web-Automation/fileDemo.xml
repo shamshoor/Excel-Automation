@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation">
+	<test name="Testing">
+		<classes>
+
+			<class name="testNGdemo.Assign1"></class>
+			<class name="testNGdemo.Assign2"></class>
+			<class name="testNGdemo.Assign3"></class>
+			<class name="testNGdemo.Assign4"></class>
+			<class name="testNGdemo.Assign5"></class>
+			<class name="testNGdemo.Assign6"></class>
+			<class name="testNGdemo.Assign7"></class>
+			<class name="testNGdemo.Assign8"></class>
+			<class name="testNGdemo.Assign9"></class>
+			
+
+
+
+		</classes>
+	</test>
+</suite>

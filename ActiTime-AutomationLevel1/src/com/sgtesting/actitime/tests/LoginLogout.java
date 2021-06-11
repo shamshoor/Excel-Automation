@@ -23,7 +23,7 @@ public class LoginLogout extends Initialization{
 			oBrowser.findElement(By.id("username")).sendKeys("admin");
 			oBrowser.findElement(By.name("pwd")).sendKeys("manager");
 			oBrowser.findElement(By.xpath("//div[text()='Login ']")).click();
-			Thread.sleep(5000);
+			Thread.sleep(1000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();

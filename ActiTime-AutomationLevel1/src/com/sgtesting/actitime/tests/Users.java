@@ -22,9 +22,9 @@ public class Users extends Initialization{
 		try
 		{
 			oBrowser.findElement(By.xpath("//*[@id='topnav']/tbody/tr[1]/td[5]/a/div[2]")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			oBrowser.findElement(By.xpath("//*[@id='createUserDiv']/div/div[2]")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			oBrowser.findElement(By.name("firstName")).sendKeys("demo");
 			oBrowser.findElement(By.name("lastName")).sendKeys("User1");
 			oBrowser.findElement(By.name("email")).sendKeys("demo@gmail.com");
@@ -32,7 +32,7 @@ public class Users extends Initialization{
 			oBrowser.findElement(By.name("password")).sendKeys("Welcome1");
 			oBrowser.findElement(By.name("passwordCopy")).sendKeys("Welcome1");
 			oBrowser.findElement(By.xpath("//*[@id='userDataLightBox_commitBtn']/div/span")).click();
-			Thread.sleep(5000);
+			Thread.sleep(1000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();
@@ -55,12 +55,12 @@ public class Users extends Initialization{
 		try
 		{
 			oBrowser.findElement(By.xpath("//*[@id='userListTableContainer']/table/tbody/tr[2]/td[1]/table/tbody/tr/td/div[1]/span[2]")).click();
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			oBrowser.findElement(By.name("password")).sendKeys("Welcome123");
 			oBrowser.findElement(By.name("passwordCopy")).sendKeys("Welcome123");
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			oBrowser.findElement(By.xpath("//*[@id='userDataLightBox_commitBtn']/div/span")).click();
-			Thread.sleep(4000);
+			Thread.sleep(1000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();
@@ -83,9 +83,9 @@ public class Users extends Initialization{
 		try
 		{
 			oBrowser.findElement(By.xpath("//*[@id='userListTableContainer']/table/tbody/tr[2]/td[1]/table/tbody/tr/td/div[1]/span[2]")).click();
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			oBrowser.findElement(By.id("userDataLightBox_deleteBtn")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			Alert oAlert=oBrowser.switchTo().alert();
 			String content=oAlert.getText();
 			System.out.println(content);

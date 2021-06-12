@@ -19,8 +19,7 @@ public class Initialization {
 	{
 		try
 		{
-			String sPath=System.getProperty("user.dir");
-			System.setProperty("webdriver.chrome.driver", sPath+"\\Library\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\TestAutomation\\Automation\\Web-Automation\\library\\drivers\\chromedriver.exe");
 			oBrowser=new ChromeDriver();
 			oBrowser.manage().window().maximize();
 		}catch(Exception e)
@@ -44,7 +43,7 @@ public class Initialization {
 	{
 		try
 		{
-			oBrowser.get("http://localhost/login.do");
+			oBrowser.get("http://localhost:81/login.do");
 			Thread.sleep(2000);
 		}catch(Exception e)
 		{

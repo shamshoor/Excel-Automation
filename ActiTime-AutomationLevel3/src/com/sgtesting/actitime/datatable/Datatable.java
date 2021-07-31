@@ -286,5 +286,10 @@ public class Datatable {
 		String data=obj.getCellData(FileName, "Scenarios", "Description", 4);
 		System.out.println("# of Rows :"+data);
 	}
+	public static void rabbani()
+	{
+
+	}
 
 }
+
